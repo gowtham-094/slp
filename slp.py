@@ -3,6 +3,7 @@ import nltk
 from nltk.corpus import treebank
 from nltk import PCFG, ViterbiParser
 nltk.download('punkt')
+nltk.download('all')
 # Load the treebank dataset
 # nltk.download('treebank')
 corpus = treebank.parsed_sents()
