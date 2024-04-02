@@ -2,7 +2,7 @@ import streamlit as st
 import nltk
 from nltk.corpus import treebank
 from nltk import PCFG, ViterbiParser
-nltk.download()
+nltk.download('punkt')
 # Load the treebank dataset
 # nltk.download('treebank')
 corpus = treebank.parsed_sents()
